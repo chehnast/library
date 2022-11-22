@@ -1,0 +1,112 @@
+/*header*/
+body{
+
+	padding: 0;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
+	color: black;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+ul,li{
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+.container{
+	width: 1170px;
+	margin: 0 auto;
+
+}
+
+.box{
+	width: 100px;
+	height: 100px;
+}
+
+.header{
+	background: url('img/header.png') no-repeat center top / cover;
+	padding-top: 57px;
+	padding-bottom: 322px;
+}
+
+.menu{
+	display: flex;
+	margin-top: 90px;
+}
+
+.menu li a{
+	font-size: 24px;
+	margin-right: 160px;
+
+}
+
+.menu li a:hover {
+	border-bottom: 1px solid #fff;
+}
+
+.menu li{
+	text-align: center;
+}
+
+
+.nav {
+	display: flex;
+	align-items: center;
+}
+
+.offer{
+	margin-top: 200px;
+	margin-left: 0;
+}
+
+.offer h1{
+	font-weight: 700;
+	font-size: 40px;
+	margin-bottom: 19px;
+	margin-top: -9px;
+}
+
+.offer p{
+	font-size: 24px;	
+}
+
+.offer a{
+	color: #000000;
+	text-decoration: none;
+	font-size: 24px;
+}
+
+.btn{
+	display: block;
+	text-align: center;
+	padding-top: 19px;
+	background: #F2E4D8;
+	box-shadow: 20px 20px 100px rgba(245, 246, 197, 0.78);
+	border-radius: 70px;
+	width: 245px;
+	height: 72px;
+	transition: all 0.5s ease;
+
+}
+
+.btn:hover {
+	background: #F3D5B9;
+    color: #FFFFFF;
+}
+

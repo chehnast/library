@@ -1,0 +1,112 @@
+/*horror*/
+body{
+
+	padding: 0;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
+	color: black;
+}
+* {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+ul,li{
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+.container{
+	width: 1170px;
+	margin: 0 auto;
+
+}
+
+.body{
+		background: url('img/main.png') no-repeat center top / cover;
+
+}
+
+.nav {
+	display: flex;
+	align-items: center;
+}
+
+.menu{
+	display: flex;
+	margin-top: 70px;
+}
+
+.comeback{
+	width: 55px;
+	height: 55px;
+	left: 34px;
+	top: 41px;
+
+	background: #FFFFFF;
+}
+
+
+.btn1{
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 900;
+	writing-mode: vertical-rl;
+	margin-left: 160px;
+	margin-top: -100px;
+
+}
+
+.btn2{
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 900;
+	writing-mode: vertical-rl;
+	margin-left: 130px;
+	margin-top: 90px;
+
+}
+
+.btn3{
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 900;
+	writing-mode: vertical-rl;
+	margin-left: 15px;
+	margin-top: 90px;
+
+}
+
+.btn4{
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 900;
+	writing-mode: vertical-rl;
+	margin-left: 30px;
+	margin-top: 90px;
+
+}
+
+.btn5{
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 900;
+	writing-mode: vertical-rl;
+	margin-left: 70px;
+}

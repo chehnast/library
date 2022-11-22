@@ -1,0 +1,105 @@
+body{
+	background: url(img/1-1-1.png)no-repeat center center fixed;
+    background-size: cover;;
+	padding: 0;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	color: white;
+}
+
+.container{
+	width: 1170px;
+	margin: 0 auto;
+
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.header{
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+
+.comeback{
+	width: 55px;
+	height: 55px;
+	left: 34px;
+	top: 41px;
+	color: white;
+	margin: 20px;
+}
+ 
+ul,li{
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+h1{
+	font-weight: 700;
+	font-size: 48px;
+}
+
+h2{
+	font-weight: 600;
+	font-size: 32px;
+}
+
+.p{
+	font-size: 20px;
+}
+
+.about{
+	margin-left: 200px;
+}
+
+.img{
+	
+	margin-left: 0;
+}
+
+.btn{
+	display: block;
+	text-align: center;
+	padding-top: 19px;
+	background: #F2E4D8;
+	box-shadow: 20px 20px 100px rgba(245, 246, 197, 0.78);
+	border-radius: 70px;
+	width: 245px;
+	height: 72px;
+	transition: all 0.5s ease;
+	margin-top: 200px;
+	margin-left: 250px;
+	color: black;
+
+}
+
+.btn:hover {
+	background: #F3D5B9;
+    color: #FFFFFF;
+}
+.btn1{
+	display: block;
+	text-align: center;
+	padding-top: 19px;
+	background: #F2E4D8;
+	box-shadow: 20px 20px 100px rgba(245, 246, 197, 0.78);
+	border-radius: 70px;
+	width: 245px;
+	height: 72px;
+	transition: all 0.5s ease;
+	margin-left: 600px;
+	margin-top: -90px;
+	color: black;
+
+}
+
+.btn1:hover {
+	background: #F3D5B9;
+    color: #FFFFFF;
+}
